@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shankar Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="Shankar.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <!-- <img src="images/ShankarLogo.JPG" class="ShankarLogo"> -->
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#">Achievements</li>
+          <li><a href="#contact">Contact</a></li>
+          <!---
+          <i class="fa-solid fa-x" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>--->
+      </nav>
+      <div class="header-text">
+        <p>Web Designing, Web Developement, Front-End Development</p>
+        <h1>Hi, I'm <span>Shankar</span><br> from India </h1>
+        
+      </div>
+    </div>
+    
+  </div>
+  <!-----------About---------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/Shankar.JPG">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <br>
+          <hr>
+          <br>
+          <p style="color: darkred;">I'm Shankar, Seeking opportunities as a Computer Science and Engineering student to apply theoretical knowledge in practical settings, contribute to innovative projects, and develop skills in Front-End development, Web Development, Web Designing and problem-solving. Dedicated to continuous learning, collaboration, and leveraging technology to make a positive impact on society. I am a Southern Boy with sky as a
+Limit. I will be Glittering in
+whatever I’m Engaged with!</p>
+          <div class="tab-titles">
+            <p class="tab-links" onclick="document.getElementById('experience').innerHTML = '<ul><li><span>2023</span><br>Completed Web Development at Brassy Academy</li></ul>'">Industrial Training</p>
+            <p class="tab-links" onclick="document.getElementById('experience').innerHTML = '<ul><li><span>Fresher</span><br></li></ul>'">Experience</p>
+            <p class="tab-links" onclick="document.getElementById('experience').innerHTML ='<ul><li><span>2020 - Present</span><br>Einstein College of Engineering, Tirunelveli</li><li><span>2019 - 2020</span><br>Government Higher Secondary School, Sambavar Vadakarai, Tenkasi</li><li><span>2017 - 2018</span><br>Government Higher Secondary School, Sambavar Vadakarai, Tenkasi</li></ul>'">Education</p>'
+          </div>
+
+          <div id="experience">
+            
+          </div>
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <!-------Skills------->
+  <div id="skills">
+    <div class="container">
+      <h1 class="sub-title">
+        Skills
+      </h1>
+      <br>
+      <hr>
+      <div class="skills">
+        <!-------Python------->
+                <div
+            class="flex flex-col items-center justify-center bg-gray-200 p-8 rounded-lg text-center skill-item"
+          >
+            <img src="images/python.svg">
+            <h4>Python</h4>
+          </div>
+
+        <!-------java------->
+          <div
+            class="flex flex-col items-center justify-center bg-gray-200 p-8 rounded-lg text-center skill-item"
+          >
+            <img src="images/java.svg">
+            <h4>Java</h4>
+          </div>
+          <!-------HTML/CSS------->
+         <div
+            class="flex flex-col items-center justify-center bg-gray-200 p-8 rounded-lg text-center skill-item"
+          >
+            <img src="images/code-solid.svg">
+            <h4>HTML / CSS</h4>
+          </div>
+           <!-------Problem Solving------->
+         <div
+            class="flex flex-col items-center justify-center bg-gray-200 p-8 rounded-lg text-center skill-item"
+          >
+            <img src="images/brain-solid.svg">
+            <h4>Problem Solving</h4>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!-------Projects------->
+<div id="projects">
+  <div class="container">
+    <h1 class="sub-title">Projects</h1>
+    <br>
+    <hr>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/Project1.webp">
+        <div class="layer">
+          <h3>Snake Game App</h3>
+          <p>This Game is Very Awesome and Interactive!!</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See more</a>
+  </div>
+</div>
+<!-------Contact------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <br>
+        <hr>
+        <p style="color: darkred;"><i class="fa-solid fa-paper-plane"></i>sankarasubramanian73@gmail.com</p>
+        <p style="color: darkred;"><i class="fa-solid fa-phone"></i>+91-9385727562</p>
+        <br>
+        <div class="social-icons">
+          <a href="#"><i class="fa-solid fa-envelope"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div> 
+        <a href="Resume/Shankar_Resume.pdf" download class="btn btn2">Download Resume</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" email="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="7" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg">
+          Hello Welcome!
+        </span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright @ Shankar. made with portfolio</p>
+  </div>
+</div>
+<script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+<script>
+  var sidemeu = document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemeu.style.right="0";
+  }
+  function closemenu(){
+    sidemeu.style.right="-200px";
+  }
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbze7E0Um4DJk76Qg-p1PkatIUWGPTSCjFGOIWhBcDbrgmGEmjA7Qsb94d_pvxJdIRSFNw/exec'
+  const form = document.forms['submit-to-google-sheet']/*
+  const msg = document.getElementById("msg");
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => 
+        msg.innerHTML = "Message sent Successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message)) })*/
+</script>
+</body>
+</html>
